@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+        @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+       
+        @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+        header {
+            background-color: black;
+            text-align: center;
+            margin-top: -6%;
+            margin-left: -8%;
+            margin-right: 0px;
+        }
+        header>h1 {
+            color: white;
+            font-family: "Passion One";
+            font-size: 7vw;
+            padding-top: 50px;
+            margin-bottom: 0px;
+            font-variant: small-caps;
+        }
+        
+        header>p {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 50px;
+            font-size: 2.5vw;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 11px;
+            padding-left: 15px;
+        }
+
+        section.normal {
+            background-color: white;
+            color: black;
+            font-family: "Sriracha";
+            font-size: 3.5vw;
+        }
+        
+        section.imagem {
+            margin-left: -8px;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.537);
+        }
+
+        section#flor {
+            background-image: url(imagens12/background001.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        section.imagem>p {
+            display: inline-block;
+            color: white;
+            font-family: "Sriracha";
+            font-size: 3.5vw;
+            background-color: rgba(0, 0, 0, 0.549);
+        }
+
+        section#papel {
+            background-image: url(imagens12/background002.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        footer {
+            color: white;
+            background-color: black;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 105%;
+            margin-bottom: -8%;
+            margin-left: -8%;
+            margin-right: 0px;
+            padding: 0.07px;;
+        }
